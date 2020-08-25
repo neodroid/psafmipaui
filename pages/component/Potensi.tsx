@@ -3,8 +3,9 @@ import React from 'react'
 
 
 
-export const Potensi = () => (
-
+    const Potensi = () => {
+ 
+        return(
 
 
     <Flex justifyContent="center" alignItems="center" w="100%" bg="white">
@@ -63,8 +64,9 @@ export const Potensi = () => (
     </Flex>
 
 
-)
+);
+};
 
-Potensi.defaultProps = {
-    title: 'with-chakra-ui',
-}
+
+
+export default Potensi;

@@ -3,8 +3,9 @@ import React from 'react'
 
 
 
-export const Pengertian = () => (
-
+    const Pengertian = () => {
+ 
+        return(
 
 
     <Flex justifyContent="center" alignItems="center" w="100%" bg="white">
@@ -56,8 +57,9 @@ export const Pengertian = () => (
     </Flex>
 
 
-)
+);
+};
 
-Pengertian.defaultProps = {
-    title: 'with-chakra-ui',
-}
+
+
+export default Pengertian;

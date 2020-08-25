@@ -2,11 +2,11 @@ import { Flex, Heading, Box, Button, Icon, Text } from '@chakra-ui/core'
 import React from 'react'
 
 
-function scrollWin() {
-    window.scrollBy(0, 450);
-}
 
-export const HomeBan = () => (
+
+ const HomeBan = () => {
+ 
+    return(
 
 
 
@@ -36,7 +36,7 @@ export const HomeBan = () => (
            
 
             <Button width="fill" 
-            variant="solid" bg="#2F80ED" color="white"  rounded="lg" m="2" onClick={scrollWin} 
+            variant="solid" bg="#2F80ED" color="white"  rounded="lg" m="2"  
             mt={[
                 "5px", // base
                 "5px", // 480px upwards
@@ -48,7 +48,7 @@ export const HomeBan = () => (
                Cari Kelompok
             </Button>
             <Button width="150px" 
-            variant="outline" bg="white" color="#2F80ED"  rounded="lg" m="2"  borderWidth="2px" borderColor="#2F80ED" onClick={scrollWin}
+            variant="outline" bg="white" color="#2F80ED"  rounded="lg" m="2"  borderWidth="2px" borderColor="#2F80ED" 
             mt={[
                 "5px", // base
                 "5px", // 480px upwards
@@ -68,8 +68,8 @@ export const HomeBan = () => (
     </Flex>
 
 
-)
+);
+        };
 
-HomeBan.defaultProps = {
-    title: 'with-chakra-ui',
-}
+
+export default HomeBan;

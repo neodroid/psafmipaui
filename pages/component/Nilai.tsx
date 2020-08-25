@@ -3,9 +3,9 @@ import React from 'react'
 
 
 
-export const Nilai = () => (
-
-
+    const Nilai = () => {
+ 
+        return(
 
     <Flex justifyContent="center" alignItems="center" w="100%" bg="white">
         <Flex
@@ -93,8 +93,10 @@ export const Nilai = () => (
     </Flex>
 
 
-)
+);
+};
 
-Nilai.defaultProps = {
-    title: 'with-chakra-ui',
-}
+
+
+export default Nilai;
+

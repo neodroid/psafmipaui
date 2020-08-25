@@ -3,9 +3,9 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
 
 
 
-// Note: This code could be better, so I'd recommend you to understand how I solved and you could write yours better :)
-export const TitleHome = () => (
-
+    const TitleHome = () => {
+ 
+        return(
 
      
             <Flex
@@ -45,10 +45,10 @@ export const TitleHome = () => (
 
                 </Box>
             </Flex>
-       
-    );
+     
+);
+};
 
+export default TitleHome;
 
-    TitleHome.defaultProps = {
-        title: 'with-chakra-ui',
-    }
+   

@@ -8,8 +8,10 @@ const MenuItems = (
   );
 
 // Note: This code could be better, so I'd recommend you to understand how I solved and you could write yours better :)
-export const TitleNilai = () => (
 
+    const TitleNilai = () => {
+ 
+        return(
 
      
             <Flex
@@ -47,8 +49,11 @@ export const TitleNilai = () => (
             </Flex>
        
     );
+};
 
 
-    TitleNilai.defaultProps = {
-        title: 'with-chakra-ui',
-    }
+
+export default TitleNilai;
+
+
+    
