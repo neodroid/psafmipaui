@@ -25,6 +25,9 @@ const Header = props => {
     bg="#EAF2FD"
     align="center"
     justify="center"
+    pos="fixed" top="0" left="0"
+    overflow="hidden"
+    zIndex={2}
 >
     <Flex
        width={[
@@ -40,7 +43,8 @@ const Header = props => {
       padding="1.5rem"
       bg="#EAF2FD"
       color="#2F80ED"
-      position="absolut"
+      
+     
       {...props}
     >
       <Flex align="center" mr={5}  justifyContent="center" 

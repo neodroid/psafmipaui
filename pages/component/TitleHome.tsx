@@ -9,12 +9,21 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
 
      
             <Flex
+                mt="20"
+           
                 w="100%"
                 bg="#EAF2FD"
                 align="center"
                 justify="center"
+                
             >
                 <Box
+                mt={[
+                    "0", // base
+                    "0", // 480px upwards
+                    "5", // 768px upwards
+                    "20", // 992px upwards
+                ]}
                     width={[
                         "100%", // base
                         "100%", // 480px upwards

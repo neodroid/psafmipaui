@@ -16,6 +16,7 @@ export default function Home() {
         <title>PSAF MIPA UI 2020</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+     
       <TitleHome/>
       <HomeBan/>
       <Pengertian/>

@@ -10,7 +10,7 @@ import React from 'react'
 
 
 
-    <Flex justifyContent="center" alignItems="center" mt="0" w="100%" bg="#EAF2FD">
+    <Flex justifyContent="center" alignItems="center" mt="0" w="100%" bg="#EAF2FD" >
         <Box
             width={[
                 "100%", // base
@@ -32,6 +32,7 @@ import React from 'react'
             rounded="lg"
             color="black"
             textAlign="center"
+            
         >
            
 
