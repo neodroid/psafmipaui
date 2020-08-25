@@ -36,7 +36,7 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
                         fontWeight="bold"
                        
                         color="black"
-                    >PSAF MIPA UI 2020</Box>
+                    >PSAF <Link color="#2F80ED">MIPA</Link> UI 2020</Box>
                     <Box 
                         fontSize={["xs", "xl"]} 
                         color="black"
