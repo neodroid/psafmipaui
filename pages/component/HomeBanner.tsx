@@ -43,7 +43,7 @@ import React from 'react'
                 "450px", // 768px upwards
                 "450px", // 992px upwards
             ]}
-            p="5"
+           
             >
                Cari Kelompok
             </Button>
@@ -55,7 +55,7 @@ import React from 'react'
                 "450px", // 768px upwards
                 "450px", // 992px upwards
             ]}
-            p="5"
+            
             >
                Lihat Tugas
             </Button>
