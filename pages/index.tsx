@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>PSAF MIPA</title>
+        <title>PSAF MIPA UI 2020</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <TitleHome/>
