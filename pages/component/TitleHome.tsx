@@ -32,7 +32,7 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
                     ]}
                     as="nav"
                     textAlign="center"
-                    
+                   
                     
                     padding="1.5rem"
                     bg="#EAF2FD"
@@ -41,11 +41,11 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
                   
                 >
                     <Box 
-                        fontSize={["1.875rem", "2.25rem"]}
+                        fontSize={["1.875rem", "2.5rem"]}
                         fontWeight="bold"
-                       
+                        fontFamily="heading"
                         color="black"
-                    >PSAF <Link color="#2F80ED">MIPA</Link> UI 2020</Box>
+                    >PSAF <Link color="#2F80ED" >MIPA</Link> UI 2020</Box>
                     <Box 
                         fontSize={["xs", "xl"]} 
                         color="black"

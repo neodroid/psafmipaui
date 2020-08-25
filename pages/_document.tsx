@@ -13,7 +13,7 @@ class MyDocument extends Document {
          <Head>
          <link
             rel="preload"
-            href="/fonts/Montserrat-Regular.ttf"
+            href="/fonts/Montserrat-Black.ttf"
             as="font"
             crossOrigin=""
           />

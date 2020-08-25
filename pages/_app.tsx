@@ -20,10 +20,24 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
       <Global
           styles={css`
             @font-face {
-              font-family: 'Montserrat';
-              src: url('/fonts/Montserrat-Regular.ttf');
               
               
+              {
+                font-family: 'Montserrat';
+                src: url('/fonts/Montserrat-Regular.ttf');
+              }
+              
+
+            }
+            @font-face {
+              {
+                font-family: 'Montserrat-Black';
+                src: url('/fonts/Montserrat-Black.ttf');
+              }
+              
+            
+              
+
             }
           `}
         />

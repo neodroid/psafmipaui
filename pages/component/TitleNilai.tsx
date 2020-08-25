@@ -19,6 +19,7 @@ const MenuItems = (
                 bg="white" 
                 align="center"
                 justify="center"
+                fontFamily="heading"
             >
                 <Box
                     width={[
