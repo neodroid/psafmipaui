@@ -3,7 +3,7 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
 
 
 
-    const TitleProfile = () => {
+    const TitleProfile = ({ children }) => {
  
         return(
 
@@ -45,7 +45,7 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
                         fontWeight="bold"
                         fontFamily="heading"
                         color="black"
-                    >PROFIL </Box>
+                    >{children} </Box>
                    
 
                 </Box>

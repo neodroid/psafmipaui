@@ -68,7 +68,7 @@ const Footer = props => {
 
                                 >
 
-                                    <ChakraLink href="https://github.com/neodroid" isExternal >
+                                    <ChakraLink href="" isExternal >
                                         <Box
                                             width="30px"
                                             h="30px"
@@ -78,7 +78,7 @@ const Footer = props => {
 
 
 
-                                    <ChakraLink href="https://www.linkedin.com/in/kevin-ahmad-faisal-1b08a0152" isExternal >
+                                    <ChakraLink href="" isExternal >
                                         <Box
                                             width="30px"
                                             h="30px"
@@ -88,14 +88,14 @@ const Footer = props => {
 
 
 
-                                    <ChakraLink href="https://instagram.com/kevinahmad" isExternal>
+                                    <ChakraLink href="" isExternal>
                                         <Box
                                             width="30px"
                                             h="30px"
                                             m="1"
                                         ><img src="/sos twit.png" /></Box>
                                     </ChakraLink>
-                                    <ChakraLink href="https://instagram.com/kevinahmad" isExternal>
+                                    <ChakraLink href="" isExternal>
                                         <Box
                                             width="30px"
                                             h="30px"

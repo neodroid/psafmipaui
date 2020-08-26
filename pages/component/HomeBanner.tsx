@@ -1,4 +1,5 @@
 import { Flex, Heading, Box, Button, Icon, Text } from '@chakra-ui/core'
+import Link from 'next/link';
 import React from 'react'
 
 
@@ -46,7 +47,8 @@ import React from 'react'
             ]}
            
             >
-               Cari Kelompok
+                <Link href="/MENTORING"> Cari Kelompok</Link>
+              
             </Button>
             <Button width="150px" 
             variant="outline" bg="white" color="#2F80ED"  rounded="lg" m="2"  borderWidth="2px" borderColor="#2F80ED" 
@@ -58,7 +60,8 @@ import React from 'react'
             ]}
             
             >
-               Lihat Tugas
+                <Link href="/TUGAS">  Lihat Tugas</Link>
+              
             </Button>
         </Box>
         <Box>

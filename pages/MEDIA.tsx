@@ -11,19 +11,21 @@ import TitleProfile from './component/TitleProfile'
 import Visimisi from './component/visimisi'
 import Filosofi from './component/filosofi'
 import Header2 from './component/header2'
+import FotoMedia from './component/fotoMedia'
 
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Profile - PSAF MIPA UI 2020</title>
+        <title>Media - PSAF MIPA UI 2020</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header2/>
-      <TitleProfile>PROFIL</TitleProfile>
-      <Visimisi/>
-      <Filosofi/>
+      <TitleProfile>MEDIA</TitleProfile>
+      <FotoMedia departemen="Mentoring Day 1"/>
+      <FotoMedia departemen="Mentoring Day 2"/>
+      <FotoMedia departemen="YOUTUBE"/>
 
       
     </div>

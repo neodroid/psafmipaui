@@ -17,13 +17,12 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Profile - PSAF MIPA UI 2020</title>
+        <title>Mentoring - PSAF MIPA UI 2020</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header2/>
-      <TitleProfile>PROFIL</TitleProfile>
-      <Visimisi/>
-      <Filosofi/>
+      <TitleProfile>MENTORING</TitleProfile>
+      
 
       
     </div>

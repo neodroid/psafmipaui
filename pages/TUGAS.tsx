@@ -11,19 +11,21 @@ import TitleProfile from './component/TitleProfile'
 import Visimisi from './component/visimisi'
 import Filosofi from './component/filosofi'
 import Header2 from './component/header2'
+import TugasCard from './component/TugasCard'
 
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Profile - PSAF MIPA UI 2020</title>
+        <title>Tugas - PSAF MIPA UI 2020</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header2/>
-      <TitleProfile>PROFIL</TitleProfile>
-      <Visimisi/>
-      <Filosofi/>
+      <TitleProfile>TUGAS</TitleProfile>
+       <TugasCard judul="Buku Saku" />
+       <TugasCard judul="Tugas 1"/>
+       <TugasCard judul="Tugas 2"/>
 
       
     </div>
