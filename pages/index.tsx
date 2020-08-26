@@ -7,6 +7,7 @@ import TitleHome  from './component/TitleHome'
 import  TitleNilai  from './component/TitleNilai'
 import  Nilai  from './component/Nilai'
 import  Potensi  from './component/Potensi'
+import Header from './component/header'
 
 
 export default function Home() {
@@ -16,7 +17,7 @@ export default function Home() {
         <title>PSAF MIPA UI 2020</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-     
+      <Header />
       <TitleHome/>
       <HomeBan/>
       <Pengertian/>

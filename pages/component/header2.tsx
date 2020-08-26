@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Heading, Flex, Text, Button } from "@chakra-ui/core";
-import Link from 'next/link'
+import Link from "next/link";
 
 const MenuItems = ({ children }) => (
   <Text mt={[
@@ -10,22 +10,20 @@ const MenuItems = ({ children }) => (
     "0", // 992px upwards
   ]}
     textAlign="justify"
-    mr={6} display="block"
-   
-    >
+    mr={6} display="block">
     {children}
   </Text>
 );
 
 // Note: This code could be better, so I'd recommend you to understand how I solved and you could write yours better :)
-const Header = () => {
+const Header2 = () => {
   const [show, setShow] = React.useState(false);
   const handleToggle = () => setShow(!show);
 
   return (
     <Flex
       w="100%"
-      bg="#EAF2FD"
+      bg="white"
       align="center"
       justify="center"
       pos="fixed" top="0" left="0"
@@ -44,7 +42,7 @@ const Header = () => {
         justify="space-between"
         wrap="wrap"
         padding="1.5rem"
-        bg="#EAF2FD"
+        bg="white"
         color="#2F80ED"
       >
         <Flex align="center" mr={5} justifyContent="center"
@@ -59,9 +57,9 @@ const Header = () => {
               ]}
               h="100%"
             ><img src="/logo.png" /></Box>
-
+            
           </Heading>
-
+              <Text color="black" ml="2">PSAF MIPA UI 2020</Text>
         </Flex>
 
         <Box
@@ -102,13 +100,12 @@ const Header = () => {
           textAlign="justify"
           flexDirection="row-reverse"
         >
-          <MenuItems><Link href="/TUGAS">TUGAS</Link></MenuItems>
+             <MenuItems><Link href="/TUGAS">TUGAS</Link></MenuItems>
           <MenuItems><Link href="/MENTORING">MENTORING</Link></MenuItems>
           <MenuItems><Link href="/MEDIA">MEDIA</Link></MenuItems>
           <MenuItems><Link href="/DEPARTEMEN">DEPARTEMEN</Link></MenuItems>
           <MenuItems><Link href="/profile">PROFIL</Link></MenuItems>
           <MenuItems><Link href="/">HOME</Link></MenuItems>
-
         </Flex>
 
       </Flex>
@@ -116,4 +113,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header2;

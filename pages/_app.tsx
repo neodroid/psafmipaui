@@ -16,7 +16,7 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <ThemeProvider theme={theme}>
       <CSSReset /> 
-      <Header />
+     
       <Global
           styles={css`
             @font-face {

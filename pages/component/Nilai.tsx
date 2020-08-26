@@ -13,7 +13,7 @@ import React from 'react'
                 "100%", // base
                 "100%", // 480px upwards
                 "100%", // 768px upwards
-                "1280px", // 992px upwards
+                "900px", // 992px upwards
             ]}
             as="nav"
             align="center"
@@ -29,7 +29,7 @@ import React from 'react'
             flexDirection="row"
            
         >
-            <Flex  m="1"
+            <Flex  
              maxW={[
                 "100%", // base
                 "100%", // 480px upwards
@@ -39,48 +39,38 @@ import React from 'react'
             rounded="lg"
             borderWidth="1px"
             borderColor="#999999"
-            h={[
-                "100%", // base
-                "100%", // 480px upwards
-                "100%", // 768px upwards
-                "200px", // 992px upwards
-            ]}
+           
             bg="white"
             >
-                <Box maxW="40%" m="2"> <img src="/otak.png"/></Box>
+                <Box maxW="20%" m="2"> <img src="/otak.png"/></Box>
                 <Box>
 
                 <Heading as="h1" fontSize={["1.5rem", "1.875rem"]} letterSpacing={".1rem"}  fontFamily="default" fontWeight="bold"> <Text color="black">Sadar</Text ></Heading>
-                <Heading as="h1" fontSize={["xs", "xl"]}   letterSpacing={".1rem"}  fontFamily="default" w="100%" > 
+                <Heading as="h1" fontSize={["xs", "md"]}   letterSpacing={".1rem"}  fontFamily="default" w="100%" > 
                 Merupakan sifat merasa; tahu dan mengerti sehingga segala perbuatan yang dilakukan atas dasar kesadaran, akal sehat, dan merupakan pilihan terbaik.
                  </Heading>
                 </Box>
                 
         </Flex>
-        <Flex  m="1"
+        <Flex  
              maxW={[
                 "100%", // base
                 "100%", // 480px upwards
                 "100%", // 768px upwards
                 "48%", // 992px upwards
             ]}
-            h={[
-                "100%", // base
-                "100%", // 480px upwards
-                "100%", // 768px upwards
-                "200px", // 992px upwards
-            ]}
+          
             
             bg="white"
             rounded="lg"
             borderWidth="1px"
             borderColor="#999999"
             >
-                <Box maxW="40%" m="2"> <img src="/gear.png"/></Box>
+                <Box maxW="20%" m="2"> <img src="/gear.png"/></Box>
                 <Box>
 
                 <Heading as="h1" fontSize={["1.5rem", "1.875rem"]} letterSpacing={".1rem"}  fontFamily="default" fontWeight="bold"> <Text color="black">Kontributif</Text ></Heading>
-                <Heading as="h1" fontSize={["xs", "xl"]}   letterSpacing={".1rem"}  fontFamily="default" w="100%" > 
+                <Heading as="h1" fontSize={["xs", "md"]}   letterSpacing={".1rem"}  fontFamily="default" w="100%" > 
                 Merapikan kesadaran untuk memberikan dampak positif untuk kemajuan bersama melalui posisi, potensi, dan peran yang ia miliki.
                  </Heading>
                 </Box>
