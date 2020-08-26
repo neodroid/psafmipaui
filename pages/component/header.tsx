@@ -46,14 +46,15 @@ const Header = () => {
       >
         <Flex align="center" mr={5} justifyContent="center"
         >
-          <Heading as="h1" size="lg" letterSpacing={"-.1rem"}>
+          <Heading as="h1"  letterSpacing={"-.1rem"}>
             <Box
               width={[
-                "40px", // base
-                "40px", // 480px upwards
-                "50px", // 768px upwards
-                "85px", // 992px upwards
+                "30px", // base
+                "30px", // 480px upwards
+                "40px", // 768px upwards
+                "50px", // 992px upwards
               ]}
+              h="100%"
             ><img src="/logo.png" /></Box>
 
           </Heading>
@@ -92,7 +93,7 @@ const Header = () => {
             "full", // 768px upwards
             "auto", // 992px upwards
           ]}
-          pt="5"
+          
 
           flexGrow={1}
           textAlign="justify"
