@@ -36,7 +36,7 @@ import React from 'react'
             
         >
            
-
+           <Link href="/mentoring">
             <Button width="fill" 
             variant="solid" bg="#2F80ED" color="white"  rounded="lg" m="2"  
             mt={[
@@ -47,9 +47,11 @@ import React from 'react'
             ]}
            
             >
-                <Link href="/MENTORING"> Cari Kelompok</Link>
+                 Cari Kelompok
               
             </Button>
+            </Link>
+            <Link href="/tugas"> 
             <Button width="150px" 
             variant="outline" bg="white" color="#2F80ED"  rounded="lg" m="2"  borderWidth="2px" borderColor="#2F80ED" 
             mt={[
@@ -60,9 +62,10 @@ import React from 'react'
             ]}
             
             >
-                <Link href="/TUGAS">  Lihat Tugas</Link>
+                Lihat Tugas
               
             </Button>
+            </Link>
         </Box>
         <Box>
 

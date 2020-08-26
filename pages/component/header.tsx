@@ -102,10 +102,10 @@ const Header = () => {
           textAlign="justify"
           flexDirection="row-reverse"
         >
-          <MenuItems><Link href="/TUGAS">TUGAS</Link></MenuItems>
-          <MenuItems><Link href="/MENTORING">MENTORING</Link></MenuItems>
-          <MenuItems><Link href="/MEDIA">MEDIA</Link></MenuItems>
-          <MenuItems><Link href="/DEPARTEMEN">DEPARTEMEN</Link></MenuItems>
+          <MenuItems><Link href="/tugas">TUGAS</Link></MenuItems>
+          <MenuItems><Link href="/mentoring">MENTORING</Link></MenuItems>
+          <MenuItems><Link href="/media">MEDIA</Link></MenuItems>
+          <MenuItems><Link href="/departemen">DEPARTEMEN</Link></MenuItems>
           <MenuItems><Link href="/profile">PROFIL</Link></MenuItems>
           <MenuItems><Link href="/">HOME</Link></MenuItems>
 
