@@ -40,12 +40,12 @@ import React from 'react'
             justifyContent="center"
             >
                 <Heading mb="2" as="h1" fontSize={["1.875rem", "2rem"]} letterSpacing={".1rem"}   fontFamily="heading" fontWeight="bold" color="black"> POSISI, <Link color="#2F80ED">POTENSI{" "}</Link >DAN PERAN</Heading>
-                <Heading as="h1" fontSize={["xs", "xl"]}   letterSpacing={".1rem"}  fontFamily="default" fontWeight="bold" w="100%" > 
-                <Text color="black" textAlign="justify">Menentukan posisi, potensi, dan peran artinya kita harus mengetahui kedudukan kita sebagai manusia ditiap tempat yang berbeda seperti apa, misalkan pada saat di kampus kedudukan kita sebagai mahasiswa, tetapi saat kita di lingkungan rumah kedudukan kita sebagai warga. Setelah mengetahui posisi kita dalam lingkup lingkungan dan individu, selanjutnya adalah kita mengetahui kemampuan yang memungkinkan untuk dikembangkan dari segi kekuatan, kesanggupan, dan daya serta dapat dimanfaatkan dalam kehidupan manusia itu sendiri. Setelah kita mengetahui potensi yang kita miliki sebagai masing – masing individu, itu akan mempermudah kita untuk menentukan peran yang akan kita lakukan.
+                
+                <Text color="black" textAlign="justify" fontSize={["xs", "xl"]}   letterSpacing={".1rem"}   w="100%">Menentukan posisi, potensi, dan peran artinya kita harus mengetahui kedudukan kita sebagai manusia ditiap tempat yang berbeda seperti apa, misalkan pada saat di kampus kedudukan kita sebagai mahasiswa, tetapi saat kita di lingkungan rumah kedudukan kita sebagai warga. Setelah mengetahui posisi kita dalam lingkup lingkungan dan individu, selanjutnya adalah kita mengetahui kemampuan yang memungkinkan untuk dikembangkan dari segi kekuatan, kesanggupan, dan daya serta dapat dimanfaatkan dalam kehidupan manusia itu sendiri. Setelah kita mengetahui potensi yang kita miliki sebagai masing – masing individu, itu akan mempermudah kita untuk menentukan peran yang akan kita lakukan.
 
 
 </Text >
-                </Heading>
+              
         </Box>
             <Box 
              width={[

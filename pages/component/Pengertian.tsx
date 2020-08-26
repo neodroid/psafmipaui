@@ -36,9 +36,9 @@ import React from 'react'
             justifyContent="center"
             >
                 <Heading as="h1" fontSize={["1.875rem", "2rem"]} letterSpacing={".1rem"}   fontFamily="heading" fontWeight="bold"> <Text color="black"  fontFamily="heading">Apa itu</Text >PSAF FMIPA UI 2020?</Heading>
-                <Heading as="h1" fontSize={["xs", "xl"]}   letterSpacing={".1rem"}  fontFamily="default" fontWeight="bold" w="100%" > 
-                <Text color="black" textAlign="justify">Merupakan pengenalan sistem akademis fakultas bagi mahasiswa FMIPA UI 2020 untuk membantu mahasiswa baru mengenal kehidupan kampus, menjalankan akademis dan non akademis dalam perkuliahan serta sebagai tempat untuk mahasiswa baru dapat mengenal teman seangkatannya walaupun berbeda departemen atau jurusan.</Text >
-                </Heading>
+               
+                <Text color="black" textAlign="justify" fontSize={["xs", "xl"]}   letterSpacing={".1rem"}   w="100%">Merupakan pengenalan sistem akademis fakultas bagi mahasiswa FMIPA UI 2020 untuk membantu mahasiswa baru mengenal kehidupan kampus, menjalankan akademis dan non akademis dalam perkuliahan serta sebagai tempat untuk mahasiswa baru dapat mengenal teman seangkatannya walaupun berbeda departemen atau jurusan.</Text >
+                
         </Box>
             <Box 
              width={[

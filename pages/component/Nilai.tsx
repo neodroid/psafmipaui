@@ -46,9 +46,9 @@ import React from 'react'
                 <Box>
 
                 <Heading as="h1" fontSize={["1.5rem", "1.875rem"]} letterSpacing={".1rem"}  fontFamily="default" fontWeight="bold"> <Text color="black">Sadar</Text ></Heading>
-                <Heading as="h1" fontSize={["xs", "md"]}   letterSpacing={".1rem"}  fontFamily="default" w="100%" > 
+                <Text fontSize={["xs", "md"]}   letterSpacing={".1rem"}  fontFamily="default" w="100%" > 
                 Merupakan sifat merasa; tahu dan mengerti sehingga segala perbuatan yang dilakukan atas dasar kesadaran, akal sehat, dan merupakan pilihan terbaik.
-                 </Heading>
+                 </Text>
                 </Box>
                 
         </Flex>
@@ -70,9 +70,9 @@ import React from 'react'
                 <Box>
 
                 <Heading as="h1" fontSize={["1.5rem", "1.875rem"]} letterSpacing={".1rem"}  fontFamily="default" fontWeight="bold"> <Text color="black">Kontributif</Text ></Heading>
-                <Heading as="h1" fontSize={["xs", "md"]}   letterSpacing={".1rem"}  fontFamily="default" w="100%" > 
+                <Text fontSize={["xs", "md"]}   letterSpacing={".1rem"}  fontFamily="default" w="100%" > 
                 Merapikan kesadaran untuk memberikan dampak positif untuk kemajuan bersama melalui posisi, potensi, dan peran yang ia miliki.
-                 </Heading>
+                 </Text>
                 </Box>
                 
         </Flex>
