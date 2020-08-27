@@ -68,7 +68,7 @@ const Footer = props => {
 
                                 >
 
-                                    <ChakraLink href="" isExternal >
+                                    <ChakraLink href="https://www.instagram.com/psafmipaui2020" isExternal >
                                         <Box
                                             width="30px"
                                             h="30px"
@@ -78,7 +78,7 @@ const Footer = props => {
 
 
 
-                                    <ChakraLink href="" isExternal >
+                                    <ChakraLink href="https://timeline.line.me/user/_dSejGqVw2dMFLJn949NvpnfM8MAF5vOo6YvzAbQ?utm_medium=windows&utm_source=desktop&utm_campaign=OA_Profile" isExternal >
                                         <Box
                                             width="30px"
                                             h="30px"

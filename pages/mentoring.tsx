@@ -14,6 +14,7 @@ import Header2 from './component/header2'
 import KetentuanKelompok from './component/KetentuanKelompok'
 
 
+
 export default function Home() {
   return (
     <div>
@@ -31,11 +32,12 @@ export default function Home() {
 
 
       <Flex  textAlign="center"  h="200px" justifyContent="center" fontSize="xl">
+     
       <Link href="https://drive.google.com/u/0/uc?id=13FsKqPZSDXoUeGcuJ0CKUjUl6ltl3C4V&export=download" isExternal>
         <Button width="fill" 
             variant="solid" bg="#2F80ED" color="white"  rounded="full" m="2"  
            
-           p="6"
+         
             >
                  Cek Kelompok Mentoring
               

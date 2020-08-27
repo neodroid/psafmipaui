@@ -9,6 +9,13 @@ import  Nilai  from './component/Nilai'
 import  Potensi  from './component/Potensi'
 import Header from './component/header'
 
+// function makeSound(){
+//   var snare= new Audio("https://www.mboxdrive.com/Jingle%20PSAF.mp3")
+//   snare.play();
+//   console.log("play snare");
+  
+// }
+
 
 export default function Home() {
   return (
@@ -16,6 +23,7 @@ export default function Home() {
       <Head>
         <title>PSAF MIPA UI 2020</title>
         <link rel="icon" href="/favicon.ico" />
+      
       </Head>
       <Header />
       <TitleHome/>

@@ -23,9 +23,19 @@ export default function Home() {
       </Head>
       <Header2/>
       <TitleProfile>MEDIA</TitleProfile>
-      <FotoMedia departemen="Mentoring Day 1"/>
-      <FotoMedia departemen="Mentoring Day 2"/>
-      <FotoMedia departemen="YOUTUBE"/>
+      {/* <FotoMedia departemen="Mentoring Day 1"/>
+      
+      <FotoMedia departemen="Youtube"/> */}
+      <FotoMedia departemen="Instagram" 
+      logo1="jignle.png"
+      logo2="merch.jpg"
+      logo4="makanan.jpg"
+      logo3="mengenal.jpg"
+      link1="https://www.instagram.com/tv/CDtia3DnvB7/?igshid=hvx3d81r07cg"
+      link2="https://www.instagram.com/p/CERkGH-HVam/?igshid=vffbm2uqggic"
+      link4="https://www.instagram.com/p/CEMZU16HZy2/?igshid=k6ecl53cfi6d"
+      link3="https://www.instagram.com/p/CEV3LbKniST/?igshid=2ira0xcqgeld"
+      />
 
       
     </div>

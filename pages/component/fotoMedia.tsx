@@ -1,22 +1,22 @@
-import { Flex, Heading, Box, Button, Icon, Text } from '@chakra-ui/core'
+import { Flex, Heading, Box, Button, Icon, Text, Link } from '@chakra-ui/core'
 import React from 'react'
 
 
 const MenuItems = ( props ) => (
     <Flex
         maxW={[
-            "50%", // base
-            "50%", // 480px upwards
-            "35%", // 768px upwards
+            "40%", // base
+            "40%", // 480px upwards
+            "40%", // 768px upwards
             "25%", // 992px upwards
         ]}
        
         // borderWidth="1px"
         // borderColor="#999999"
         flexDirection="column"
-        bg="white"
+       
     >
-        <Box m="2"> <img src={props.img} /></Box>
+        <Box m="2"> <Link href={props.link} isExternal> <img src={props.img} /></Link></Box>
        
     </Flex>
 );
@@ -48,10 +48,17 @@ const FotoMedia = (props) => {
                 flexDirection="row"
 
             >
-                <MenuItems img={props.logo1}/>
-                <MenuItems img={props.logo2} />
-                <MenuItems img={props.logo3} />
-                <MenuItems img={props.logo4}/>
+              
+               <MenuItems img={props.logo1} link={props.link1}/>
+                    
+               <MenuItems img={props.logo2} link={props.link2}/>
+                  
+               <MenuItems img={props.logo3} link={props.link3}/>
+                   
+                   
+               <MenuItems img={props.logo4} link={props.link4}/>
+                   
+               
 
                 
             </Flex>
