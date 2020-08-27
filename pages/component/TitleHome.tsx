@@ -9,7 +9,7 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
 
      
             <Flex
-                mt="10"
+                pt="20"
            
                 w="100%"
                 bg="#EAF2FD"
