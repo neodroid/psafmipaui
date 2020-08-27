@@ -20,7 +20,13 @@ import React from 'react'
             justify="space-between"
             bgImage="url('/bekron1.png')"
             bgPos="center"
-            bgSize="700px"
+            
+            bgSize={[
+                "700px", // base
+                "700px", // 480px upwards
+                "700px", // 768px upwards
+                "50%", // 992px upwards
+            ]}
             backgroundRepeat="no-repeat"
             wrap="wrap"
             padding="1.5rem"
@@ -37,9 +43,9 @@ import React from 'react'
                 "48%", // 992px upwards
             ]}
             rounded="lg"
-            borderWidth="1px"
-            borderColor="#999999"
-           
+
+            boxShadow="lg"
+           my="1"
             bg="white"
             >
                 <Box maxW="20%" m="2"> <img src="/otak.png"/></Box>
@@ -60,11 +66,10 @@ import React from 'react'
                 "48%", // 992px upwards
             ]}
           
-            
+            my="1"
             bg="white"
             rounded="lg"
-            borderWidth="1px"
-            borderColor="#999999"
+            boxShadow="lg"
             >
                 <Box maxW="20%" m="2"> <img src="/gear.png"/></Box>
                 <Box>
