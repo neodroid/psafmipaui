@@ -76,7 +76,7 @@ import React from 'react'
 
                 <Heading as="h1" fontSize={["1.5rem", "1.875rem"]} letterSpacing={".1rem"}  fontFamily="default" fontWeight="bold"> <Text color="black">Kontributif</Text ></Heading>
                 <Text fontSize={["xs", "md"]}   letterSpacing={".1rem"}  fontFamily="default" w="100%" > 
-                Merapikan kesadaran untuk memberikan dampak positif untuk kemajuan bersama melalui posisi, potensi, dan peran yang ia miliki.
+                Merupakan kesadaran untuk memberikan dampak positif untuk kemajuan bersama melalui posisi, potensi, dan peran yang ia miliki.
                  </Text>
                 </Box>
                 
