@@ -27,8 +27,17 @@ const TugasCard = (props) => {
 
     return (
 
-        <Flex   w="100%" bg="white" flexDirection="column">
-           
+        <Flex   w="100%" bg="white" flexDirection="column"  alignItems="center" >
+           <Box
+                    width={[
+                        "90%", // base
+                        "90%", // 480px upwards
+                        "90%", // 768px upwards
+                        "600px", // 992px upwards
+                    ]}
+                >
+                    <img src={props.gambar} />
+                </Box>
             <Flex
                 width={[
                     "100%", // base

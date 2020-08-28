@@ -1,4 +1,4 @@
-import { Flex } from '@chakra-ui/core'
+import { Box, Flex } from '@chakra-ui/core'
 import Head from 'next/head'
 import React from 'react'
 import  HomeBan  from './component/HomeBanner'
@@ -23,7 +23,8 @@ export default function Home() {
       </Head>
       <Header2/>
       <TitleProfile>TUGAS</TitleProfile>
-       <TugasCard judul="Buku Saku" />
+      
+       <TugasCard judul="Buku Saku" gambar="/tugas.png"/>
        <TugasCard judul="Tugas 1"/>
        <TugasCard judul="Tugas 2"/>
 

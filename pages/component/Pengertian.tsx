@@ -37,7 +37,7 @@ import React from 'react'
             >
                 <Heading as="h1" fontSize={["1.875rem", "2rem"]} letterSpacing={".1rem"}   fontFamily="heading" fontWeight="bold"> <Text color="black"  fontFamily="heading">Apa itu</Text >PSAF FMIPA UI 2020?</Heading>
                
-                <Text color="black" textAlign="justify" fontSize={["xs", "xl"]}   letterSpacing={".1rem"}   w="100%">Merupakan pengenalan sistem akademis fakultas bagi mahasiswa FMIPA UI 2020 untuk membantu mahasiswa baru mengenal kehidupan kampus, menjalankan akademis dan non akademis dalam perkuliahan serta sebagai tempat untuk mahasiswa baru dapat mengenal teman seangkatannya walaupun berbeda departemen atau jurusan.</Text >
+                <Text color="black" textAlign="justify" fontSize={["xs", "xl"]}   letterSpacing={".1rem"}   w="100%">PSAF MIPA UI 2020 merupakan kepanjangan dari Pengenalan Sistem Akademik Fakultas Matematika dan Ilmu Pengetahuan Alam. PSAF MIPA UI 2020 akan membantu mahasiswa baru FMIPA UI untuk mengenal kehidupan kampus secara akademik maupun non akademik dalam menghadapi dunia perkuliahan, serta sebagai sarana untuk mehasiswa baru FMIPA UI untuk dapat mengenal teman seangkatannya dari berbagai jurusan di FMIPA.</Text >
                 
         </Box>
             <Box 

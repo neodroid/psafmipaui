@@ -1,7 +1,7 @@
 import { Flex, Heading, Box, Button, Icon, Text } from '@chakra-ui/core'
 import Link from 'next/link';
 import React from 'react'
-
+import { motion } from 'framer-motion';
 
 
 
@@ -37,6 +37,7 @@ import React from 'react'
         >
            
            <Link href="/mentoring">
+         
             <Button width="fill" 
             variant="solid" bg="#2F80ED" color="white"  rounded="lg" m="2"  
             mt={[
@@ -45,22 +46,26 @@ import React from 'react'
                 "450px", // 768px upwards
                 "450px", // 992px upwards
             ]}
-           
+           shadow="xl"
             >
                  Cari Kelompok
               
             </Button>
+           
+
             </Link>
+
+            
             <Link href="/tugas"> 
             <Button width="150px" 
-            variant="outline" bg="white" color="#2F80ED"  rounded="lg" m="2"  borderWidth="2px" borderColor="#2F80ED" 
+            variant="outline" bg="white" color="#2F80ED"  rounded="lg" m="2"  borderWidth="1px" borderColor="#2F80ED" 
             mt={[
                 "5px", // base
                 "5px", // 480px upwards
                 "450px", // 768px upwards
                 "450px", // 992px upwards
             ]}
-            
+            shadow="xl"
             >
                 Lihat Tugas
               

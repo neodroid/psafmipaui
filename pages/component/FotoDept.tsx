@@ -19,7 +19,7 @@ const MenuItems = ( props ) => (
         // borderWidth="1px"
         // borderColor="#999999"
         flexDirection="column"
-        bg="white"
+       
     >
         <Box m="2"> <img src={props.img} /></Box>
         <Box textAlign="center" fontWeight="bold">{props.nama}</Box>
@@ -31,9 +31,10 @@ const FotoDept = (props) => {
 
     return (
 
-        <Flex  alignItems="center" w="100%" bg="white" flexDirection="column">
+        <Flex  alignItems="center" w="100%"  flexDirection="column" bg={props.bg}>
             <Text fontWeight="bold" fontFamily="heading" fontSize="xl">{props.departemen}</Text>
             <Flex
+                bg={props.bg}
                 width={[
                     "100%", // base
                     "100%", // 480px upwards
@@ -49,7 +50,7 @@ const FotoDept = (props) => {
                 backgroundRepeat="no-repeat"
                 wrap="wrap"
                 padding="1.5rem"
-                bg="white"
+                
                 color="black"
                 flexDirection="row"
 

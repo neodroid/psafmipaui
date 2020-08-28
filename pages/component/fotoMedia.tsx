@@ -26,6 +26,16 @@ const FotoMedia = (props) => {
     return (
 
         <Flex  alignItems="center" w="100%" bg="white" flexDirection="column" my="10">
+              <Box
+                    width={[
+                        "90%", // base
+                        "90%", // 480px upwards
+                        "90%", // 768px upwards
+                        "600px", // 992px upwards
+                    ]}
+                >
+                    <img src="/media.png" />
+                </Box>
             <Text fontWeight="bold" fontFamily="heading" fontSize="xl">{props.departemen}</Text>
             <Flex
                 width={[

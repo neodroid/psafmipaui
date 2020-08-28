@@ -31,6 +31,7 @@ const Header = () => {
       pos="fixed" top="0" left="0"
       overflow="hidden"
       zIndex={2}
+      shadow=""
     >
       <Flex
         width={[

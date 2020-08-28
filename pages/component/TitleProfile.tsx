@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@chakra-ui/core";
-
+import { motion } from 'framer-motion';
 
 
     const TitleProfile = ({ children }) => {
@@ -39,14 +39,26 @@ import { Box, Heading, Flex, Text, Button, Link as ChakraLink, Link } from "@cha
                     color="#2F80ED"
                     
                   
-                >
+                ><motion.div initial="hidden" animate="visible" variants={{
+                    hidden: {
+                        scale: .8,
+                        opacity: 0
+                    },
+                    visible: {
+                        scale: 1,
+                        opacity: 1,
+                        transition: {
+                            delay: 0.4
+                        }
+                    },
+                }}>
                     <Box 
                         fontSize={["1.875rem", "2.5rem"]}
                         fontWeight="bold"
                         fontFamily="heading"
                         color="black"
                     >{children} </Box>
-                   
+                    </motion.div>
 
                 </Box>
             </Flex>

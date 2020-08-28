@@ -5,6 +5,7 @@ import Header from "./component/header";
 import Footer from "./component/footer";
 import { Global, css } from "@emotion/core";
 import theme from '../theme';
+import { motion } from 'framer-motion';
 
 
 const breakpoints = ["360px", "768px", "1024px", "1440px"];
@@ -12,7 +13,7 @@ const breakpoints = ["360px", "768px", "1024px", "1440px"];
 
 
 
-const App: React.FC<AppProps> = ({ Component, pageProps }) => {
+function App({ Component, pageProps, router }) {
   return (
     <ThemeProvider theme={theme}>
       <CSSReset /> 
@@ -41,8 +42,17 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
             }
           `}
         />
-     
-      <Component  />
+     <motion.div key={router.route} initial="pageInitial" animate="pageAnimate" variants={{
+ 
+  pageInitial: {
+    opacity: 0
+  },
+  pageAnimate: {
+    opacity: 1
+  },
+}}>
+  <Component {...pageProps} />
+</motion.div>
       <Footer/>
     </ThemeProvider>
   );

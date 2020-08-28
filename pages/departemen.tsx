@@ -34,6 +34,7 @@ export default function Home() {
         Amir Aththufail"
         jabatan1="Project Officer PDM 2020"
         jabatan2="Ketua HMD Matematika 2020"
+        bg="#FFABAB"
       />
        <FotoDept 
         departemen="KIMIA"
@@ -45,6 +46,7 @@ export default function Home() {
         nama2="Adha Masfufa"
         jabatan1="Project Officer PDK 2020"
         jabatan2="Ketua HMD Kimia 2020"
+        bg="#D0A9F5"
       />
        <FotoDept 
         departemen="FISIKA"
@@ -56,6 +58,7 @@ export default function Home() {
         nama2="Ammar Amrullah Zain"
         jabatan1="Project Officer PDF 2020"
         jabatan2="Ketua HMD Fisika 2020"
+        bg="#C3FBDA"
       />
        <FotoDept 
         departemen="BIOLOGI"
@@ -67,6 +70,7 @@ export default function Home() {
         nama2="Ario Dewandaru Suryo Arianto"
         jabatan1="Project Officer PDB 2020"
         jabatan2="Ketua HMD Biologi 2020"
+        bg="#C3D0FB"
       />
        <FotoDept 
         departemen="GEOGRAFI"
@@ -78,6 +82,7 @@ export default function Home() {
         nama2="Rifqi Hermawan"
         jabatan1="Project Officer PSADG 2020"
         jabatan2="Ketua HMD Geografi 2020"
+        bg="#BDBDBD"
       />
        <FotoDept 
         departemen="GEOSAINS"
@@ -89,6 +94,7 @@ export default function Home() {
         nama2="Achmad Zulvickar"
         jabatan1="Project Officer PDGS 2020"
         jabatan2="Ketua HMD Geosains 2020"
+        bg="#FFF0B9"
       />
 
       

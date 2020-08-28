@@ -1,4 +1,5 @@
 import { Flex } from '@chakra-ui/core'
+
 import Head from 'next/head'
 import React from 'react'
 import  HomeBan  from './component/HomeBanner'
@@ -26,7 +27,10 @@ export default function Home() {
       
       </Head>
       <Header />
-      <TitleHome/>
+      
+         <TitleHome/>
+     
+      
       <HomeBan/>
       <Pengertian/>
       <TitleNilai/>
