@@ -1,14 +1,14 @@
-import { Flex, Heading, Box, Button, Icon, Text } from '@chakra-ui/core'
+import { Flex, Heading, Box, Button, Icon, Text, Link } from '@chakra-ui/core'
 import React from 'react'
 
 
 const MenuItems = ( props ) => (
     <Flex
         maxW={[
-            "50%", // base
-            "50%", // 480px upwards
-            "35%", // 768px upwards
-            "25%", // 992px upwards
+            "100%", // base
+            "100%", // 480px upwards
+            "40%", // 768px upwards
+            "30%", // 992px upwards
         ]}
         
         // borderWidth="1px"
@@ -18,8 +18,12 @@ const MenuItems = ( props ) => (
         color="blue"
     >
         
-        <Box textAlign="center" fontWeight="bold" color="blue">{props.nama}</Box>
-        <Box textAlign="center">{props.jabatan}</Box>
+       <Link href={props.link1} isExternal> <Box my="2" textAlign="center"  color="Blue">{props.tugas1}</Box></Link>
+       <Link href={props.link2} isExternal> <Box my="2" textAlign="center"  color="Blue">{props.tugas2}</Box></Link>
+       <Link href={props.link3} isExternal> <Box my="2" textAlign="center"  color="Blue">{props.tugas3}</Box></Link>
+       <Link href={props.link4} isExternal> <Box my="2" textAlign="center"  color="Blue">{props.tugas4}</Box></Link>
+       <Link href={props.link5} isExternal> <Box my="2" textAlign="center"  color="Blue">{props.tugas5}</Box></Link>
+        
     </Flex>
 );
 
@@ -60,7 +64,9 @@ const TugasCard = (props) => {
                 alignItems="center"
             >
                 <Text fontWeight="bold" fontFamily="heading" fontSize="xl">{props.judul}</Text>
-                <MenuItems nama={props.tugas1} jabatan={props.tugas2}/>
+                <MenuItems tugas1={props.tugas1} tugas2={props.tugas2} tugas3={props.tugas3} tugas4={props.tugas4} tugas5={props.tugas5}
+                link1={props.link1} link2={props.link2} link3={props.link3} link4={props.link4} link5={props.link5}
+                />
                
 
                 
