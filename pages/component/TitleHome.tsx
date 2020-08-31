@@ -9,7 +9,7 @@ const TitleHome = () => {
 
 
         <Flex
-            pt="20"
+          
             
             w="100%"
             bg=""
@@ -33,8 +33,6 @@ const TitleHome = () => {
                 ]}
                 as="nav"
                 textAlign="center"
-
-
                 padding="1.5rem"
                 bg=""
                 color="#2F80ED"
@@ -60,6 +58,7 @@ const TitleHome = () => {
                         fontWeight="bold"
                         fontFamily="heading"
                         color="black"
+                        
                     >PSAF <Link color="#2F80ED" >MIPA</Link> UI 2020</Box>
                      </motion.div>
                      <motion.div initial="hidden" animate="visible" variants={{
