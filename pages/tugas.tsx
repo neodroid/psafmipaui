@@ -33,6 +33,10 @@ export default function Home() {
        link5="https://drive.google.com/u/0/uc?id=1caXsmyX6DEsYaaF1cIUZ2sDPCCTP0Evv&export=download"
        tugas6="Twibbon Mahasiswa Baru FMIPA UI 2020.png" link6="https://drive.google.com/u/0/uc?id=1yQjOgoqyVtLP03fsg97fLov8qbMRem9H&export=download"
        />
+        <TugasCard judul="JINGLE" tugas1="jingle PSAF.mp3" link1="https://drive.google.com/u/0/uc?id=1iMHzmLJi-NHpmXRzdH0kwzzlVQb2FhYp&export=download" tugas2="jingle PSAF.pdf"
+        link2="https://drive.google.com/u/0/uc?id=1JdyDvovmPdyzsQt9uldjTbTJQC1plh9S&export=download"
+    
+       />
 
       
     </div>

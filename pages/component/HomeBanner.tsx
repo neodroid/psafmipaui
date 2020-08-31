@@ -1,23 +1,57 @@
 import { Flex, Heading, Box, Button, Icon, Text } from '@chakra-ui/core'
 import Link from 'next/link';
-import React from 'react'
+import React, { useState } from 'react'
 import { motion } from 'framer-motion';
 
-function makeSound(){
-    var snare= new Audio("https://www.mboxdrive.com/Jingle%20PSAF.mp3")
-    snare.play();
-    console.log("play snare");
+// const [main, setMain] = useState(false);
+
+
+// function makeSound(){
+//     var snare= new Audio("https://www.mboxdrive.com/Jingle%20PSAF.mp3")
     
-  }
+//     setMain(true);
+//     if(main==false){
+//         snare.play();
+//     }
+    
+//     console.log("play snare");
+    
+//   }
 
 
  const HomeBan = () => {
+    const [main, setMain] = React.useState(false);
+    
+    function makeSound(){
+           
+        var snare= new Audio("https://www.mboxdrive.com/Jingle%20PSAF.mp3")
+          
+           
+                if(main==false){
+                    setMain(true);
+                    snare.play();
+                    console.log("playyy");
+                    
+                }else{
+                    // setMain(false);
+                    // snare.pause();
+                    // console.log("pauseeeee");
+                    
+                }
+           
+       
+            
+          }
+    
+    
+       
+          
  
     return(
 
 
 
-    <Flex justifyContent="center" alignItems="center" mt="0" w="100%" bg="" zIndex={3}>
+    <Flex justifyContent="center" alignItems="center" mt="0" w="100%" bg="" zIndex={3} > 
         <Box
             width={[
                 "100%", // base
@@ -44,7 +78,15 @@ function makeSound(){
            
           
          
-            <Button width="fill" borderColor="white" borderWidth="3px"
+            <Button 
+            
+              display={[
+                main ? "none" : "", // base
+                main ? "none" : "", // base
+                main ? "none" : "", // base
+                main ? "none" : "", // base
+              ]}
+            width="fill" borderColor="white" borderWidth="3px"
             variant="solid" bg="#2F80ED" color="white"  rounded="lg" m="2"  
             mt={[
                 "5px", // base
