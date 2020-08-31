@@ -31,6 +31,7 @@ export default function Home() {
        link1="https://drive.google.com/u/0/uc?id=1aC1oaUE4p20FJm0HGR1J5A1NBocYD4Mi&export=download" link2="https://drive.google.com/u/0/uc?id=1th4KihzwikrZ6vYe23MDQyN5xSW7wfi-&export=download"
        link3="https://drive.google.com/u/0/uc?id=1LzehiYni5uhZMcLqwYxMPy5Q_ZJ2D4t4&export=download" link4="https://drive.google.com/u/0/uc?id=1CWcwWBa0gWcKO5m1IJf25JxUzAXP1r-M&export=download"
        link5="https://drive.google.com/u/0/uc?id=1caXsmyX6DEsYaaF1cIUZ2sDPCCTP0Evv&export=download"
+       tugas6="Twibbon Mahasiswa Baru FMIPA UI 2020.png" link6="https://drive.google.com/u/0/uc?id=1yQjOgoqyVtLP03fsg97fLov8qbMRem9H&export=download"
        />
 
       

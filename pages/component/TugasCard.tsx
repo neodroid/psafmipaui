@@ -23,6 +23,7 @@ const MenuItems = ( props ) => (
        <Link href={props.link3} isExternal> <Box my="2" textAlign="center"  color="Blue">{props.tugas3}</Box></Link>
        <Link href={props.link4} isExternal> <Box my="2" textAlign="center"  color="Blue">{props.tugas4}</Box></Link>
        <Link href={props.link5} isExternal> <Box my="2" textAlign="center"  color="Blue">{props.tugas5}</Box></Link>
+       <Link href={props.link6} isExternal> <Box my="2" textAlign="center"  color="Blue">{props.tugas6}</Box></Link>
         
     </Flex>
 );
@@ -65,7 +66,7 @@ const TugasCard = (props) => {
             >
                 <Text fontWeight="bold" fontFamily="heading" fontSize="xl">{props.judul}</Text>
                 <MenuItems tugas1={props.tugas1} tugas2={props.tugas2} tugas3={props.tugas3} tugas4={props.tugas4} tugas5={props.tugas5}
-                link1={props.link1} link2={props.link2} link3={props.link3} link4={props.link4} link5={props.link5}
+                link1={props.link1} link2={props.link2} link3={props.link3} link4={props.link4} link5={props.link5} tugas6={props.tugas6} link6={props.link6}
                 />
                
 
