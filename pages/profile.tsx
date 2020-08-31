@@ -238,7 +238,7 @@ export default function Home() {
       logo4="Group 79.png"
       namakiri="PJ Pergerakan Mahasiswa"
         jabatankiri="Zaidan Rahmat Wibawa"
-        deptkiri="Matematika 2018"
+        deptkiri="Matematika 2019"
 
         nama1="Wakil PJ Pergerakan Mahasiswa"
         jabatan1="Farhan Ramadhan"
