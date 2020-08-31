@@ -47,7 +47,7 @@ const Header2 = () => {
       >
         <Flex align="center" mr={5} justifyContent="center"
         >
-          <Heading as="h1"  letterSpacing={"-.1rem"}>
+          <Heading as="h1" letterSpacing={"-.1rem"}>
             <Box
               width={[
                 "30px", // base
@@ -57,8 +57,8 @@ const Header2 = () => {
               ]}
               h="100%"
             ><img src="/logo.png" /></Box>
-           </Heading>   <Heading as="h1"  letterSpacing={"-.1rem"}>
-<Box ml="2"
+          </Heading>   <Heading as="h1" letterSpacing={"-.1rem"}>
+            <Box ml="2"
               width={[
                 "80px", // base
                 "80px", // 480px upwards
@@ -70,7 +70,7 @@ const Header2 = () => {
           </Heading>
           <Text color="black" ml="2">PSAF MIPA UI 2020</Text>
         </Flex>
-      
+
 
         <Box
           display={[
@@ -104,7 +104,7 @@ const Header2 = () => {
             "full", // 768px upwards
             "auto", // 992px upwards
           ]}
-          
+
 
           flexGrow={1}
           textAlign="justify"

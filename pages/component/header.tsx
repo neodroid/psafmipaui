@@ -11,8 +11,8 @@ const MenuItems = ({ children }) => (
   ]}
     textAlign="justify"
     mr={6} display="block"
-   
-    >
+
+  >
     {children}
   </Text>
 );
@@ -51,7 +51,7 @@ const Header = () => {
       >
         <Flex align="center" mr={5} justifyContent="center"
         >
-          <Heading as="h1"  letterSpacing={"-.1rem"}>
+          <Heading as="h1" letterSpacing={"-.1rem"}>
             <Box
               width={[
                 "30px", // base
@@ -61,8 +61,8 @@ const Header = () => {
               ]}
               h="100%"
             ><img src="/logo.png" /></Box>
-           </Heading>   <Heading as="h1"  letterSpacing={"-.1rem"}>
-<Box ml="2"
+          </Heading>   <Heading as="h1" letterSpacing={"-.1rem"}>
+            <Box ml="2"
               width={[
                 "80px", // base
                 "80px", // 480px upwards
@@ -107,7 +107,7 @@ const Header = () => {
             "full", // 768px upwards
             "auto", // 992px upwards
           ]}
-          
+
 
           flexGrow={1}
           textAlign="justify"
