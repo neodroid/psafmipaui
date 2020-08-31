@@ -236,11 +236,11 @@ export default function Home() {
       logo2="Group 77.png"
       logo3="Group 78.png"
       logo4="Group 79.png"
-      namakiri="PJ Pergerakan"
+      namakiri="PJ Pergerakan Mahasiswa"
         jabatankiri="Zaidan Rahmat Wibawa"
         deptkiri="Matematika 2018"
 
-        nama1="Wakil PJ Pergerakan"
+        nama1="Wakil PJ Pergerakan Mahasiswa"
         jabatan1="Farhan Ramadhan"
         dept1="Geografi 2019"
         
