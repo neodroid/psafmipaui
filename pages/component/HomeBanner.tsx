@@ -3,6 +3,12 @@ import Link from 'next/link';
 import React from 'react'
 import { motion } from 'framer-motion';
 
+function makeSound(){
+    var snare= new Audio("https://www.mboxdrive.com/Jingle%20PSAF.mp3")
+    snare.play();
+    console.log("play snare");
+    
+  }
 
 
  const HomeBan = () => {
@@ -36,9 +42,9 @@ import { motion } from 'framer-motion';
             
         >
            
-           <Link href="/mentoring">
+          
          
-            <Button width="fill" 
+            <Button width="fill" borderColor="white" borderWidth="3px"
             variant="solid" bg="#2F80ED" color="white"  rounded="lg" m="2"  
             mt={[
                 "5px", // base
@@ -47,30 +53,18 @@ import { motion } from 'framer-motion';
                 "450px", // 992px upwards
             ]}
            shadow="xl"
+           onClick={makeSound}
+           px="100px"
             >
-                 Cari Kelompok
+                 Play
               
             </Button>
            
 
-            </Link>
+           
 
             
-            <Link href="/tugas"> 
-            <Button width="150px" 
-            variant="outline" bg="white" color="#2F80ED"  rounded="lg" m="2"  borderWidth="1px" borderColor="#2F80ED" 
-            mt={[
-                "5px", // base
-                "5px", // 480px upwards
-                "450px", // 768px upwards
-                "450px", // 992px upwards
-            ]}
-            shadow="xl"
-            >
-                Lihat Tugas
-              
-            </Button>
-            </Link>
+           
         </Box>
         <Box>
 

@@ -18,7 +18,7 @@ import HomeFix from './component/Home'
 //   snare.play();
 //   console.log("play snare");
   
-// }
+// // }
 
 
 export default function Home() {
