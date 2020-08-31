@@ -61,7 +61,16 @@ const Header = () => {
               ]}
               h="100%"
             ><img src="/logo.png" /></Box>
-
+           </Heading>   <Heading as="h1"  letterSpacing={"-.1rem"}>
+<Box ml="2"
+              width={[
+                "80px", // base
+                "80px", // 480px upwards
+                "80px", // 768px upwards
+                "100px", // 992px upwards
+              ]}
+              h="100%"
+            ><img src="/fmipa.png" /></Box>
           </Heading>
 
         </Flex>
