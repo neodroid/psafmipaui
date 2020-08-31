@@ -4,13 +4,20 @@ import React from 'react'
 
 const MenuItems = ( props ) => (
     <Flex
+    bg=""
         maxW={[
             "50%", // base
             "50%", // 480px upwards
             "35%", // 768px upwards
             "25%", // 992px upwards
         ]}
-        h={[
+        minH={[
+            "50px", // base
+            "50px", // 480px upwards
+            "400px", // 768px upwards
+            "300px", // 992px upwards
+        ]}
+        maxH={[
             "300px", // base
             "400px", // 480px upwards
             "400px", // 768px upwards
@@ -43,8 +50,8 @@ const FotoDept = (props) => {
                     "900px", // 992px upwards
                 ]}
                 as="nav"
-                align="center"
-                justify="space-between"
+               
+                justify="center"
                 //bgImage="url('/bekron1.png')"
                 bgPos="center"
                 bgSize="700px"
@@ -55,6 +62,7 @@ const FotoDept = (props) => {
                 flexDirection="row"
 
             >
+               
                 <MenuItems img={props.logo1} nama={props.namakiri} jabatan={props.jabatankiri} dept={props.deptkiri}/>
                 <MenuItems img={props.logo2} nama={props.nama1} jabatan={props.jabatan1} dept={props.dept1}/>
                 <MenuItems img={props.logo3} nama={props.nama2} jabatan={props.jabatan2} dept={props.dept2}/>

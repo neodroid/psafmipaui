@@ -100,7 +100,7 @@ const Header2 = () => {
           textAlign="justify"
           flexDirection="row-reverse"
         >
-             <MenuItems><Link href="/tugas">TUGAS</Link></MenuItems>
+          <MenuItems><Link href="/tugas">TUGAS</Link></MenuItems>
           <MenuItems><Link href="/mentoring">MENTORING</Link></MenuItems>
           <MenuItems><Link href="/media">MEDIA</Link></MenuItems>
           <MenuItems><Link href="/departemen">DEPARTEMEN</Link></MenuItems>
