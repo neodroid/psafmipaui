@@ -53,7 +53,7 @@ export default function Home() {
         logo1="Group 42.png"
         logo2="Group 41.png"
         logo3="Group 34.png"
-        logo4="Logo HMD Fisika 1.png"
+        logo4="logo fisika baru.png"
         nama1="Michida Budi Darmawan"
         nama2="Ammar Amrullah Zain"
         jabatan1="Project Officer PDF 2020"

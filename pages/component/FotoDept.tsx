@@ -24,6 +24,7 @@ const MenuItems = ( props ) => (
         <Box m="2"> <img src={props.img} /></Box>
         <Box textAlign="center" fontWeight="bold">{props.nama}</Box>
         <Box textAlign="center">{props.jabatan}</Box>
+        <Box textAlign="center">{props.dept}</Box>
     </Flex>
 );
 
@@ -50,15 +51,14 @@ const FotoDept = (props) => {
                 backgroundRepeat="no-repeat"
                 wrap="wrap"
                 padding="1.5rem"
-                
                 color="black"
                 flexDirection="row"
 
             >
-                <MenuItems img={props.logo1}/>
-                <MenuItems img={props.logo2} nama={props.nama1} jabatan={props.jabatan1}/>
-                <MenuItems img={props.logo3} nama={props.nama2} jabatan={props.jabatan2}/>
-                <MenuItems img={props.logo4}/>
+                <MenuItems img={props.logo1} nama={props.namakiri} jabatan={props.jabatankiri} dept={props.deptkiri}/>
+                <MenuItems img={props.logo2} nama={props.nama1} jabatan={props.jabatan1} dept={props.dept1}/>
+                <MenuItems img={props.logo3} nama={props.nama2} jabatan={props.jabatan2} dept={props.dept2}/>
+                <MenuItems img={props.logo4} nama={props.namakanan} jabatan={props.jabatankanan} dept={props.deptkanan}/>
 
                 
             </Flex>

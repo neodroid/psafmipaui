@@ -11,7 +11,7 @@ import { motion } from 'framer-motion';
 
 
 
-    <Flex justifyContent="center" alignItems="center" mt="0" w="100%" bg="#EAF2FD" >
+    <Flex justifyContent="center" alignItems="center" mt="0" w="100%" bg="" zIndex={3}>
         <Box
             width={[
                 "100%", // base
@@ -26,7 +26,7 @@ import { motion } from 'framer-motion';
                 "600px", // 768px upwards
                 "546px", // 992px upwards
             ]}
-            bg="#EAF2FD"
+            bg=""
             bgImage="url('/jakun.png')"
             bgPos="center"
             bgSize="cover"

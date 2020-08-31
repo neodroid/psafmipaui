@@ -9,6 +9,9 @@ import  TitleNilai  from './component/TitleNilai'
 import  Nilai  from './component/Nilai'
 import  Potensi  from './component/Potensi'
 import Header from './component/header'
+import Header2 from './component/header2'
+
+import HomeFix from './component/Home'
 
 // function makeSound(){
 //   var snare= new Audio("https://www.mboxdrive.com/Jingle%20PSAF.mp3")
@@ -26,12 +29,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       
       </Head>
-      <Header />
-      
-         <TitleHome/>
-     
-      
-      <HomeBan/>
+     <HomeFix/>
+      <Header2/>
       <Pengertian/>
       <TitleNilai/>
       <Nilai/>

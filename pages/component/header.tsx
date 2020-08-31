@@ -25,13 +25,14 @@ const Header = () => {
   return (
     <Flex
       w="100%"
-      bg="#EAF2FD"
+      bg=""
       align="center"
       justify="center"
-      pos="fixed" top="0" left="0"
+      top="0" left="0"
       overflow="hidden"
       zIndex={2}
       shadow=""
+
     >
       <Flex
         width={[
@@ -45,8 +46,8 @@ const Header = () => {
         justify="space-between"
         wrap="wrap"
         padding="1.5rem"
-        bg="#EAF2FD"
-        color="#2F80ED"
+        bg=""
+        color="black"
       >
         <Flex align="center" mr={5} justifyContent="center"
         >

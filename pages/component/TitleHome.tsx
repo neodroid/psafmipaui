@@ -10,9 +10,9 @@ const TitleHome = () => {
 
         <Flex
             pt="20"
-
+            
             w="100%"
-            bg="#EAF2FD"
+            bg=""
             align="center"
             justify="center"
 
@@ -36,7 +36,7 @@ const TitleHome = () => {
 
 
                 padding="1.5rem"
-                bg="#"
+                bg=""
                 color="#2F80ED"
 
 
@@ -61,12 +61,44 @@ const TitleHome = () => {
                         fontFamily="heading"
                         color="black"
                     >PSAF <Link color="#2F80ED" >MIPA</Link> UI 2020</Box>
+                     </motion.div>
+                     <motion.div initial="hidden" animate="visible" variants={{
+                    hidden: {
+                        scale: .8,
+                        opacity: 0
+                    },
+                    visible: {
+                        scale: 1,
+                        opacity: 1,
+                        transition: {
+                            delay: 0.8
+                        }
+                    },
+                }}>
                     <Box
                         fontSize={["xs", "xl"]}
                         color="black"
                     >Kembangkan Potensimu, Mainkan Peranmu!</Box>
-
-                </motion.div>
+         </motion.div>
+         <motion.div initial="hidden" animate="visible" variants={{
+                    hidden: {
+                        scale: .8,
+                        opacity: 0
+                    },
+                    visible: {
+                        scale: 1,
+                        opacity: 1,
+                        transition: {
+                            delay: 1.2
+                        }
+                    },
+                }}>
+                    <Box
+                        fontSize={["xs", "xl"]}
+                        color="black"
+                        fontWeight="bold"
+                    >"Secerah Harapan dari Benih Baru"</Box>
+         </motion.div>
             </Box>
 
         </Flex>
